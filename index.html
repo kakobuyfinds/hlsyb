@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Sugargoo spreadsheet | Product Finds, Prices &amp; QC Guide</title>
+<meta name="description" content="Browse six HipobuyFind listings in this Sugargoo spreadsheet, filter by category, compare reference prices in CNY, and review sizing, QC and shipping checks.">
+<!-- index.html. Google and Bing submission is pending. Publish at the final URL, then request indexing through Google Search Console and Bing Webmaster Tools for the verified site. -->
+<!-- Search results reviewed: https://sugargoowithqc.com/spreadsheet and https://www.sugargoo.work/spreadsheet already offer category browsing and QC resources. This page adds source item IDs, searchable CNY prices and a category-specific pre-order checklist. -->
+<style>
+:root{color-scheme:light;--paper:#f5f5e9;--ink:#192e25;--green:#254f3d;--line:#cbd5c9;--white:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.55 "Instrument Sans",system-ui,sans-serif}a{color:var(--green)}:focus-visible{outline:3px solid #bc672f;outline-offset:3px}.wrap{width:min(68rem,92%);margin-inline:auto}.hero{margin-top:2rem;padding:clamp(1.5rem,6vw,5rem);border-radius:2rem;background:var(--green);color:var(--white);text-align:center}.hero h1,h2{font-family:"Instrument Serif",Georgia,serif;font-weight:500;line-height:1.05}.hero h1{font-size:clamp(2.8rem,8vw,6rem);margin:0}.hero p{max-width:37rem;margin:1rem auto 1.5rem}.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:.65rem}.button{display:inline-block;padding:.7rem 1.1rem;border-radius:2rem;background:#dcedba;color:var(--ink);font-weight:700;text-decoration:none}.secondary{background:white}section{margin-block:3rem}h2{font-size:clamp(2rem,5vw,3rem);margin:0 0 .6rem}.tools{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1.3rem}label{display:grid;gap:.25rem;font-weight:650}input,select{font:inherit;padding:.55rem;border:1px solid var(--green);border-radius:.5rem;background:white;color:var(--ink);max-width:100%}.sheet{background:white;border:1px solid var(--line);border-radius:1rem;overflow:hidden}table{width:100%;border-collapse:collapse;text-align:left}th,td{padding:.75rem;border-bottom:1px solid var(--line);overflow-wrap:anywhere}thead{background:#e3eddf}tbody tr:last-child td,tbody tr:last-child th{border-bottom:0}td:last-child{white-space:nowrap;font-variant-numeric:tabular-nums}.guide{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:1rem}.guide article,details{padding:1rem;border:1px solid var(--line);border-radius:.85rem;background:white}.guide h3{margin:0}details+details{margin-top:.6rem}summary{cursor:pointer;font-weight:700}footer{padding:1.25rem 0 2rem;border-top:1px solid var(--line)}@media(max-width:480px){th,td{padding:.5rem;font-size:.86rem}}
+</style>
+<link rel="canonical" href="https://kakobuyfinds.github.io/hlsyb/">
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+<h1>Sugargoo spreadsheet</h1>
+<p>Compare shoes and clothing from HipobuyFind, then check your seller’s size chart, warehouse photos and shipping quote before you order.</p>
+<div class="actions">
+<a class="button" href="https://hipobuyfind.com/">Sugargoo spreadsheet</a>
+<a class="button secondary" href="https://hipobuyfind.com/">Buy it now</a>
+</div>
+</header>
+<section aria-labelledby="catalog">
+<h2 id="catalog">Product directory</h2>
+<p>Six listings from <a href="https://hipobuyfind.com/">HipobuyFind</a>. Prices are catalog references in Chinese yuan. Check the listing for current prices and options.</p>
+<div class="tools" id="filters" hidden style="display:none">
+<label for="query">Search items<input id="query" type="search" placeholder="Product name or item ID"></label>
+<label for="category">Category<select id="category"><option value="">All categories</option><option>Shoes</option><option>Hoodies</option><option>T-shirts</option><option>Jackets</option></select></label>
+</div>
+<p id="results" role="status"></p>
+<div class="sheet">
+<table aria-labelledby="catalog">
+<thead><tr><th scope="col">Product</th><th scope="col">Category</th><th scope="col">Item ID</th><th scope="col">CNY</th></tr></thead>
+<tbody id="items">
+<tr><th scope="row"><a href="https://hipobuyfind.com/goods-148191.html">Cream chunky sneakers with wide laces</a></th><td>Shoes</td><td>148191</td><td>¥350.00</td></tr>
+<tr><th scope="row"><a href="https://hipobuyfind.com/goods-148188.html">Black canvas low-top sneakers with gum sole</a></th><td>Shoes</td><td>148188</td><td>¥450.00</td></tr>
+<tr><th scope="row"><a href="https://hipobuyfind.com/goods-154936.html">Gray hoodie</a></th><td>Hoodies</td><td>154936</td><td>¥300.00</td></tr>
+<tr><th scope="row"><a href="https://hipobuyfind.com/goods-154917.html">Fleece-lined hoodie</a></th><td>Hoodies</td><td>154917</td><td>¥170.00</td></tr>
+<tr><th scope="row"><a href="https://hipobuyfind.com/goods-154920.html">Graphic short-sleeve T-shirt</a></th><td>T-shirts</td><td>154920</td><td>¥105.00</td></tr>
+<tr><th scope="row"><a href="https://hipobuyfind.com/goods-154851.html">Hooded quick-dry jacket</a></th><td>Jackets</td><td>154851</td><td>¥157.14</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section aria-labelledby="checks">
+<h2 id="checks">What to check before ordering</h2>
+<div class="guide">
+<article><h3>Shoes</h3><p>Measure both feet and compare the longer measurement with the seller’s size chart. In warehouse QC photos, check the size label, outsole and both sides of the pair.</p></article>
+<article><h3>Hoodies and T-shirts</h3><p>Lay a garment you already own flat and compare chest width, body length and sleeve length. Check whether the seller lists flat width or full circumference.</p></article>
+<article><h3>Jackets</h3><p>Measure over the layers you expect to wear. Check the zipper, lining and cuffs in warehouse photos. Ask for a close-up if a detail is unclear.</p></article>
+</div>
+</section>
+<section aria-labelledby="faq">
+<h2 id="faq">Shopping questions</h2>
+<details><summary>How do I use a product link with Sugargoo?</summary><p>Open the HipobuyFind item and look for Sugargoo in its buying options. If you use the original seller URL, confirm that the item, size and color shown by the agent match the seller’s listing before paying.</p></details>
+<details><summary>What goes into the delivered price?</summary><p>Add the item price, domestic delivery, any service fees, international shipping and any applicable import charges. Check whether your route bills on actual or volumetric weight.</p></details>
+<details><summary>When should I review QC photos?</summary><p>Review the warehouse quality-control photos before approving international shipping. If the item differs from your order, check the seller and agent’s return deadlines before requesting a return or exchange.</p></details>
+</section>
+</main>
+<footer class="wrap">Independent shopping guide. Product listings are sourced from HipobuyFind.</footer>
+<script>
+const filters = document.querySelector('#filters');
+const query = document.querySelector('#query');
+const category = document.querySelector('#category');
+const results = document.querySelector('#results');
+const rows = Array.from(document.querySelector('#items').rows);
+function filterCatalog() {
+  const terms = query.value.trim().toLowerCase().split(/\s+/);
+  let count = 0;
+  for (const row of rows) {
+    const searchable = row.textContent.toLowerCase();
+    const matchesCategory = !category.value || row.cells[1].textContent === category.value;
+    row.hidden = !(matchesCategory && terms.every(term => searchable.includes(term)));
+    count += Number(!row.hidden);
+  }
+  results.textContent = count ? `${count} of ${rows.length} listings` : 'No matching listings. Try a different search or category.';
+}
+query.addEventListener('input', filterCatalog);
+category.addEventListener('change', filterCatalog);
+filters.hidden = false;
+filters.style.removeProperty('display');
+filterCatalog();
+</script>
+</body>
+</html>
